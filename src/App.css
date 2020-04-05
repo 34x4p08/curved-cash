@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+  background: linear-gradient(to top, #007FFF, #f8f9fa);
+  color: #0a2a5a;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px + 1vmin);
+}
+
+.App-footer {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px + 1vmin);
+}
+
+.App-nav {
+  min-height: 10vh;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px + 1vmin);
+}
+
+.App-header .pagination {
+  display: inline-flex;
+}
+
+
+.App-header .page-link {
+  border-color: #95999c;
+  outline-style: none;
+  box-shadow: none;
+}
+
+.stats-section {
+  display: inline-block;
+}
+
+.stats-section.borderred {
+  border-right: 4px solid #007FFF;
+  margin-right: 2vh;
+  padding-right: 2vh;
+}
+
+.buysell-section.card-deck {
+  margin: 2vh;
+}
+
+.App-header .page-item.active .page-link {
+  background-color: #95999c;
+  border-color: #95999c;
+  outline-style: none;
+  box-shadow: none;
+}
+
+a:focus {outline:0;}
